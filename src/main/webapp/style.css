@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.nav-bar{
+	background-color:orange;
+	display: flex;
+    justify-content: space-between;
+	
+}
+.form{
+	border: 8px solid black;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+table{
+	padding:30px;
+}
+.view-table{
+	padding:30px;
+	margin:0 auto;
+}
+td{
+	padding:30px;
+	font-size:24px;
+	font-weight:900;
+}
+input{
+	border:2px solid black;
+}
+.btn{
+	background-color: skyblue;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: 900;
+	
+}
+.message{
+	padding:20px;
+	font-weight:900;
+	background-color:green;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-weight:900;
+	
+}
+nav li{
+	list-style-type:none;
+}
+.heading h1{
+	padding:25px;
+}
+.menu{
+	padding:25px;
+}
